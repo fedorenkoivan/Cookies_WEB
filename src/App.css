@@ -1,4 +1,3 @@
-/* App.css */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,12 +5,10 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Wrapper */
 .wrapper {
   text-align: center;
 }
 
-/* Header */
 .header {
   background: #222;
   color: white;
@@ -37,8 +34,11 @@ body {
   gap: 20px;
 }
 
-.nav-links li {
+.nav-link{
   cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .hero {
@@ -71,7 +71,6 @@ body {
   background-color: #ddd;
 }
 
-/* Subscription Section */
 .subscription {
   background: white;
   padding: 40px;
@@ -95,7 +94,6 @@ input {
   border-radius: 5px;
 }
 
-/* Pricing Section */
 .pricing {
   background: #fff;
   padding: 40px;
@@ -122,4 +120,32 @@ ul {
 
 li {
   margin: 5px 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.input-field {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.submit-button {
+  background-color: #6200ea;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #4500b5;
 }
